@@ -7,15 +7,12 @@ import java.awt.Graphics2D;
 
 public class SmokingGameContent extends JPanel {
 
-    private Image dude;
-
     public SmokingGameContent() {
         super.setDoubleBuffered(true);
     }
 
     @Override
     public void paintComponent(Graphics g) {
-        Image 
         Graphics2D graph2D = (Graphics2D) g;
         graph2D.drawRect(50, 50, 250, 200);
         graph2D.setColor(Color.blue);

@@ -10,7 +10,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background-color: grey;
+  background-color: hsl(0, 0%, 85%);
 }
 
 img {
@@ -51,22 +51,22 @@ ul {
 }
 
 .navbar a:hover {
-    color: hsl(0, 100%, 20% );
+  color: hsl(0, 100%, 20%);
 }
 
 .navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 .navbar ul {
-    display: flex;
+  display: flex;
 }
 
 .navbar ul li {
-   margin-left: 20px; 
+  margin-left: 20px;
 }
 
 .header {
@@ -91,16 +91,32 @@ ul {
   margin-top: 25px;
 }
 
+.faces {
+  margin: 20px;
+  text-align: center;
+}
+
+.faces img {
+  max-width: 250px;
+  max-height: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.faces-cover img {
+  object-fit: contain;
+}
+
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.box{
+.box {
   flex: 1;
-  background:hsl(0, 100%, 20%);
-  color: hsl(0, 0%, 70%);;
+  background: hsl(0, 100%, 20%);
+  color: hsl(0, 0%, 70%);
   border-radius: 10px;
   margin: 20px 10px;
   margin: 20px 10px;
@@ -108,8 +124,7 @@ ul {
   padding: 15px 20px;
 }
 
-
-.boxes .container{
+.boxes .container {
   display: flex;
   justify-content: space-between;
 }
