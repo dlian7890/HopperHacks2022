@@ -164,3 +164,32 @@ ul {
 .names {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .boxes .container {
+    display: block;
+    text-align: center;
+  }
+
+  .about-container {
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .about-box {
+    display: block;
+    text-align: center;
+    min-width: 450px;
+  }
+
+
+
+
+}
